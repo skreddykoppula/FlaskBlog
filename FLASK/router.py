@@ -1,5 +1,6 @@
 
 from flask import  render_template, url_for,flash,redirect,request
+from FLASK.forms import LoginForm, RegistrationForm, UpdateAccountForm
 from FLASK.models import User ,Post
 from FLASK import app,db,bcrypt
 from flask_login import login_user,current_user,logout_user,login_required
